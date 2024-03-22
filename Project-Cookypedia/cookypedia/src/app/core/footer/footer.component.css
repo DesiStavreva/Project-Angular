@@ -1,0 +1,16 @@
+footer {
+  background: pink;
+  margin-top: 1em;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  max-width: 1366px;
+}
+
+footer p {
+  margin: 0;
+  padding: 0;
+  font-size: 1.2em;
+  text-align: center;
+  border-radius: 20px;
+}

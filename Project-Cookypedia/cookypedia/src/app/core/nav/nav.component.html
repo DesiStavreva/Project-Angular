@@ -1,0 +1,23 @@
+<header>
+
+    <a id="logo" href='home'>
+        <div class="profile"><img [attr.src]="logo" alt="logo"></div>
+    </a>
+
+    <nav>
+
+            <div *ngIf="!isLoggedIn">
+                <ul>
+                    <li>
+                        <a routerLink="/login">Login</a>
+                    </li>
+                    <li>
+                        <a routerLink="/register">Register</a>
+                    </li>
+                    <li>
+                        <a routerLink="/recipes">All recipes</a>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+</header>
